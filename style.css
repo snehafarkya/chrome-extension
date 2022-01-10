@@ -1,6 +1,6 @@
 body{
     width: 26em;
-    height: 26em;
+    height: 45em;
   
     background-image: linear-gradient(rgb(83, 232, 243), rgba(0, 0, 255, 0.534));
     border: 2px transparent solid;
@@ -9,9 +9,17 @@ body{
     justify-content: center;
 }
 p{
+    text-align: center;
     display: inline-flex;
     margin: auto 1em;
     font-size: 1.5em;
     color:darkblue;
 
+}
+@media screen and (max-width:420px) {
+body{
+    width: 26em;
+    height: 26em;
+}
+    
 }
